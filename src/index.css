@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.aos-init{
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.lavishly-yours-regular {
+  font-family: "Lavishly Yours", serif;
+  font-weight: 800;
+  font-size: 3rem;
+  font-style: normal;
+}
+
+.navbar-toggler-icon {
+  filter: invert(1);
+}
+
+.about-us-bg{
+  background: url("./Assets/Images/dates.jpg");
+  background-size: cover;
+}
