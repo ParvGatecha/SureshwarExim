@@ -17,12 +17,12 @@ import { height } from "@mui/system";
 
 function Home() {
   return (
-    <div className="main-container z-2" data-aos="fade-in">
+    <div className="main-container z-2">
       <div
         className="hero-section min-vh-100 d-flex flex-column flex-md-row justify-content-around"
         id="main-c"
       >
-        <div className="content text-end" data-aos="slide-right">
+        <div className="content text-end">
           <h1 className="overflow-hidden text-white">
             <span className="highlight">Sureshwar Exim</span>
             <br></br> welcomes you
@@ -45,28 +45,28 @@ function Home() {
         </div>
       </div>
 
-
       <div className="hero-section min-vh-100 d-flex flex-column flex-md-row justify-content-around about-us-bg">
-        <div className="content fs-5" data-aos="slide-left">
+        <div className="content fs-5">
           <h1 className="fw-bold text-white">About Us</h1>
           <p className="text-white">
-            Welcome to <b className="text-danger">Sureshwar Exim</b>, your trusted partner in the export
-            of premium-quality dates and jaggery. With a commitment to
-            excellence and authenticity, we specialize in delivering the finest
-            natural sweeteners to global markets. Our journey began with a
-            vision to bridge the gap between traditional, nutrient-rich products
-            and international demand. Sourced directly from the best farms, our
-            dates and jaggery are carefully selected, processed, and packaged to
-            ensure freshness, purity, and superior taste. At 
-            <b className="text-danger"> Sureshwar Exim</b> quality is our priority. We follow strict
-            quality control measures and adhere to international standards,
-            ensuring that every shipment meets the expectations of our valued
-            customers. Whether you’re a wholesaler, distributor, or retailer, we
-            provide seamless export solutions, timely deliveries, and
-            competitive pricing. Join us in promoting natural and healthy
-            alternatives worldwide. Experience the richness of nature with our
-            premium dates and jaggery. Contact us today to explore
-            export opportunities!
+            Welcome to <b className="text-danger">Sureshwar Exim</b>, your
+            trusted partner in the export of premium-quality dates and jaggery.
+            With a commitment to excellence and authenticity, we specialize in
+            delivering the finest natural sweeteners to global markets. Our
+            journey began with a vision to bridge the gap between traditional,
+            nutrient-rich products and international demand. Sourced directly
+            from the best farms, our dates and jaggery are carefully selected,
+            processed, and packaged to ensure freshness, purity, and superior
+            taste. At
+            <b className="text-danger"> Sureshwar Exim</b> quality is our
+            priority. We follow strict quality control measures and adhere to
+            international standards, ensuring that every shipment meets the
+            expectations of our valued customers. Whether you’re a wholesaler,
+            distributor, or retailer, we provide seamless export solutions,
+            timely deliveries, and competitive pricing. Join us in promoting
+            natural and healthy alternatives worldwide. Experience the richness
+            of nature with our premium dates and jaggery. Contact us today to
+            explore export opportunities!
           </p>
           <div className="buttons">
             <button className="contact-btn">Read More</button>
@@ -74,31 +74,49 @@ function Home() {
         </div>
       </div>
       <section className="products-section container overflow-visible">
-        <h2 data-aos="fade-up">Our Products</h2>
-        <p data-aos="fade-up">
+        <h2>Our Products</h2>
+        <p>
           We provide a wide selection of Guar Gum products crafted to meet
           global standards. Our range includes Guar Gum powder, splits, and
           tailored formulations for diverse industries like food,
           pharmaceuticals, cosmetics, textiles, and more.
         </p>
-        <div className="products-grid overflow-visible">
-          <div className="product-card" data-aos="fade-up">
-            <img src={guarchuri} alt="Guar Churi" />
-            <h3>Guar Churi</h3>
+        <div className="products-grid overflow-visible m-2">
+          {/* Jaggery Products */}
+            <div className="product-card">
+              <img src={guarchuri} alt="Guar Churi" />
+              <h3>Jaggery</h3>
+            </div>
+            <div className="product-card">
+              <img src={guargumpowder} alt="Guar Gum Powder" />
+              <h3>Jaggery Cubes</h3>
+            </div>
+            <div className="product-card">
+              <img src={guarkorma} alt="Guar Korma" />
+              <h3>Jaggery Powder</h3>
           </div>
-          <div className="product-card" data-aos="fade-up">
-            <img src={guargumpowder} alt="Guar Gum Powder" />
-            <h3>Guar Gum Powder</h3>
-          </div>
-          <div className="product-card" data-aos="fade-up">
-            <img src={guarkorma} alt="Guar Korma" />
-            <h3>Guar Korma</h3>
-          </div>
-          <div className="product-card" data-aos="fade-up">
-            <img src={guarsplit} alt="Guar Split" />
-            <h3>Guar Split</h3>
-          </div>
+          
         </div>
+        <div className="products-grid overflow-visible m-2">
+          {/* Dates Products */}
+            <div className="product-card">
+              <img src={guarsplit} alt="Guar Split" />
+              <h3>Medjool Dates</h3>
+            </div>
+            <div className="product-card">
+              <img src={guarsplit} alt="Guar Split" />
+              <h3>Safawi Dates</h3>
+            </div>
+            <div className="product-card">
+              <img src={guarsplit} alt="Guar Split" />
+              <h3>Ajwa Dates</h3>
+            </div>
+            <div className="product-card">
+              <img src={guarsplit} alt="Guar Split" />
+              <h3>Zahidi Dates</h3>
+            </div>
+        </div>
+
         <button className="view-industries-btn">
           <Link className="text-white" to="/industries">
             View All Industries
@@ -106,14 +124,10 @@ function Home() {
         </button>
       </section>
 
-      <section
-        className="contact-section container"
-        id="contactus"
-        data-aos="fade-in"
-      >
+      <section className="contact-section container" id="contactus">
         <h2>Contact Us</h2>
         <div className="d-flex flex-column flex-md-row gap-5 overflow-visible">
-          <div className="contact-container flex-grow-1" data-aos="slide-right">
+          <div className="contact-container flex-grow-1">
             <form className="contact-form">
               <input type="text" placeholder="Name" required />
               <input type="email" placeholder="Email" required />
@@ -124,7 +138,7 @@ function Home() {
               </button>
             </form>
           </div>
-          <div className="map-container flex-grow-0" data-aos="slide-left">
+          <div className="map-container flex-grow-0">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d7400.9561192465335!2d70.796294!3d21.954608!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjHCsDU3JzE2LjYiTiA3MMKwNDcnNTUuOSJF!5e0!3m2!1sen!2sin!4v1732254171752!5m2!1sen!2sin"
               height="450"

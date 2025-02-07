@@ -11,11 +11,11 @@ import { Routes, Router, Route, Link } from 'react-router-dom';
 
 function AboutUs() {
   return (
-    <div className="main-container container d-flex align-items-center justify-content-center z-2" data-aos='fade-in'>
+    <div className="main-container container d-flex align-items-center justify-content-center z-2">
       <h1 className="fw-bold text-center">About Us</h1>
       <p className="fs-5 text-center">Welcome to our company, a leading manufacturer and exporter of Guar Gum! With a commitment to excellence and a dedication to providing high-quality products, we have established ourselves as a trusted name in the industry.</p>
       <div className="hero-section d-flex flex-column flex-md-row justify-content-around">
-        <div className="content text-center" data-aos="slide-right">
+        <div className="content text-center">
           <h1>
           Manufacturing
           </h1>
@@ -23,7 +23,7 @@ function AboutUs() {
           At our state-of-the-art manufacturing facility, we employ cutting-edge technology and adhere to strict quality control measures to ensure that our Guar Gum meets the highest standards. Our experienced team of professionals oversees the entire production process, from sourcing the finest raw materials to the final packaging, ensuring consistency and purity in every batch.
           </p>
         </div>
-        <div className="image-container" data-aos="slide-left">
+        <div className="image-container">
           <img
             src={one}
             alt="Guar Gum"
@@ -33,14 +33,14 @@ function AboutUs() {
       </div>
 
       <div className="hero-section d-flex flex-column-reverse flex-md-row justify-content-around">
-        <div className="image-container" data-aos="slide-right">
+        <div className="image-container">
             <img
                 src={two}
                 alt="Guar Gum"
                 className="hero-image"
             />
         </div>
-        <div className="content text-center" data-aos="slide-left">
+        <div className="content text-center">
           <h1>
           The Versatility of Guar Gum
           </h1>
@@ -51,7 +51,7 @@ function AboutUs() {
       </div>
 
       <div className="hero-section d-flex flex-column flex-md-row justify-content-around">
-        <div className="content text-center" data-aos="slide-right">
+        <div className="content text-center">
           <h1>
           Global Reach and Customer Focus
           </h1>
@@ -59,7 +59,7 @@ function AboutUs() {
           As an exporter, we take great pride in delivering our Guar Gum products to clients around the globe. Our robust supply chain network ensures timely and efficient delivery, allowing us to cater to the diverse needs of international markets. We prioritize customer satisfaction and strive to build long-term relationships based on trust, reliability, and exceptional service.
           </p>
         </div>
-        <div className="image-container" data-aos="slide-left">
+        <div className="image-container">
           <img
             src={three}
             alt="Guar Gum"
@@ -69,14 +69,14 @@ function AboutUs() {
       </div>
 
       <div className="hero-section d-flex flex-column-reverse flex-md-row justify-content-around">
-        <div className="image-container" data-aos="slide-right">
+        <div className="image-container">
             <img
                 src={four}
                 alt="Guar Gum"
                 className="hero-image"
             />
         </div>
-        <div className="content text-center" data-aos="slide-left">
+        <div className="content text-center">
           <h1>
           Sustainable Practices
           </h1>
@@ -87,7 +87,7 @@ function AboutUs() {
       </div>
 
       <div className="hero-section d-flex flex-column flex-md-row justify-content-around">
-        <div className="content text-center" data-aos="slide-right">
+        <div className="content text-center">
           <h1>
           Your Trusted Partner
           </h1>
@@ -95,7 +95,7 @@ function AboutUs() {
           Partner with us, and you can expect the highest level of product quality, exceptional service, and a reliable supply chain. Whether you are a food manufacturer, a pharmaceutical company, or any other industry seeking top-grade Guar Gum, we are here to fulfill your requirements.
           </p>
         </div>
-        <div className="image-container" data-aos="slide-left">
+        <div className="image-container">
           <img
             src={five}
             alt="Guar Gum"
@@ -105,14 +105,14 @@ function AboutUs() {
       </div>
 
       <div className="hero-section d-flex flex-column-reverse flex-md-row justify-content-around">
-        <div className="image-container" data-aos="slide-right">
+        <div className="image-container">
             <img
                 src={six}
                 alt="Guar Gum"
                 className="hero-image"
             />
         </div>
-        <div className="content text-center" data-aos="slide-left">
+        <div className="content text-center">
           <h1>
           Choose Us, Shape the Future
           </h1>

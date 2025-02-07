@@ -185,7 +185,7 @@ body {
 .view-industries-btn {
   margin-top: 2rem;
   padding: 0.8rem 2rem;
-  background: #4caf50;
+  background: #ff0000;
   color: #ffffff;
   border: none;
   border-radius: 5px;
@@ -195,7 +195,7 @@ body {
 }
 
 .view-industries-btn:hover {
-  background: #45a049;
+  background: #a04545;
   transform: scale(1.05);
 }
 /* Contact Section */
@@ -239,7 +239,7 @@ body {
 
 .contact-form .send-button {
   padding: 0.8rem 2rem;
-  background-color: #4caf50;
+  background-color: #ff0000;
   color: white;
   border: none;
   border-radius: 5px;
@@ -248,7 +248,7 @@ body {
 }
 
 .contact-form .send-button:hover {
-  background-color: #45a049;
+  background-color: #a04545;
 }
 
 .map-container {

@@ -12,7 +12,7 @@ function App() {
     window.open(url, '_blank');
   };
   return (
-    <div className="main-container position-relative" data-aos="fade-in">
+    <div className="main-container position-relative">
       
 
       <Routes>

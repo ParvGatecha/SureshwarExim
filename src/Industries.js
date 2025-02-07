@@ -27,10 +27,10 @@ function Industries() {
         return () => window.removeEventListener('resize', applyMobileAnimations);
       }, []);
   return (
-    <div className="main-container container d-flex align-items-center justify-content-center overflow-visible" data-aos='fade-in'>
+    <div className="main-container container d-flex align-items-center justify-content-center overflow-visible">
       <h1 className="fw-bold">Industries</h1>
       <div className="row d-flex flex-wrap row-cols-lg-4 row-cols-md-3 row-cols-2  overflow-visible">
-        <div className="d-flex flex-column justify-content-center align-items-center mobile-animate" data-aos='fade-up' data-aos-offset="100">
+        <div className="d-flex flex-column justify-content-center align-items-center mobile-animate">
             <div className="card d-flex justify-content-center align-items-center border-0">
                 <div className="z-3 bg-white rounded-circle card-w d-flex align-items-center justify-content-center shadow p-3 overflow-visible">
 
@@ -43,7 +43,7 @@ function Industries() {
             </div>
             <p>Confectionery</p>
         </div>
-        <div className="d-flex flex-column justify-content-center align-items-center mobile-animate" data-aos='fade-up' data-aos-offset="100">
+        <div className="d-flex flex-column justify-content-center align-items-center mobile-animate">
             <div className="card d-flex justify-content-center align-items-center border-0">
                 <div className="z-3 bg-white rounded-circle card-w d-flex align-items-center justify-content-center shadow p-3">
 
@@ -55,7 +55,7 @@ function Industries() {
             </div>
             <p>Beverages</p>
         </div>
-        <div className="d-flex flex-column justify-content-center align-items-center mobile-animate" data-aos='fade-up' data-aos-offset="100">
+        <div className="d-flex flex-column justify-content-center align-items-center mobile-animate">
             <div className="card d-flex justify-content-center align-items-center border-0">
                 <div className="z-3 bg-white rounded-circle card-w d-flex align-items-center justify-content-center shadow p-3">
 
@@ -67,7 +67,7 @@ function Industries() {
             </div>
             <p>Dairy Products</p>
         </div>
-        <div className="d-flex flex-column justify-content-center align-items-center mobile-animate" data-aos='fade-up' data-aos-offset="100">
+        <div className="d-flex flex-column justify-content-center align-items-center mobile-animate">
             <div className="card d-flex justify-content-center align-items-center border-0">
                 <div className="z-3 bg-white rounded-circle card-w d-flex align-items-center justify-content-center shadow p-3">
 
@@ -79,7 +79,7 @@ function Industries() {
             </div>
             <p>Pharmaceuticals</p>
         </div>
-        <div className="d-flex flex-column justify-content-center align-items-center mobile-animate" data-aos='fade-up' data-aos-offset="100">
+        <div className="d-flex flex-column justify-content-center align-items-center mobile-animate">
             <div className="card d-flex justify-content-center align-items-center border-0">
                 <div className="z-3 bg-white rounded-circle card-w d-flex align-items-center justify-content-center shadow p-3">
 
@@ -91,7 +91,7 @@ function Industries() {
             </div>
             <p>Pet Food</p>
         </div>
-        <div className="d-flex flex-column justify-content-center align-items-center mobile-animate" data-aos='fade-up' data-aos-offset="100">
+        <div className="d-flex flex-column justify-content-center align-items-center mobile-animate">
             <div className="card d-flex justify-content-center align-items-center border-0">
                 <div className="z-3 bg-white rounded-circle card-w d-flex align-items-center justify-content-center shadow p-3">
 
@@ -103,7 +103,7 @@ function Industries() {
             </div>
             <p>Ketchup and Pickles</p>
         </div>
-        <div className="d-flex flex-column justify-content-center align-items-center mobile-animate" data-aos='fade-up' data-aos-offset="100">
+        <div className="d-flex flex-column justify-content-center align-items-center mobile-animate">
             <div className="card d-flex justify-content-center align-items-center border-0">
                 <div className="z-3 bg-white rounded-circle card-w d-flex align-items-center justify-content-center shadow p-3">
 
@@ -115,7 +115,7 @@ function Industries() {
             </div>
             <p>Mining and Construction</p>
         </div>
-        <div className="d-flex flex-column justify-content-center align-items-center mobile-animate" data-aos='fade-up' data-aos-offset="100">
+        <div className="d-flex flex-column justify-content-center align-items-center mobile-animate">
             <div className="card d-flex justify-content-center align-items-center border-0">
                 <div className="z-3 bg-white rounded-circle card-w d-flex align-items-center justify-content-center shadow p-3">
 
@@ -127,7 +127,7 @@ function Industries() {
             </div>
             <p>Tobacco Industry</p>
         </div>
-        <div className="d-flex flex-column justify-content-center align-items-center mobile-animate" data-aos='fade-up' data-aos-offset="100">
+        <div className="d-flex flex-column justify-content-center align-items-center mobile-animate">
             <div className="card d-flex justify-content-center align-items-center border-0">
                 <div className="z-3 bg-white rounded-circle card-w d-flex align-items-center justify-content-center shadow p-3 overflow-visible">
 
@@ -139,7 +139,7 @@ function Industries() {
             </div>
             <p>Paper Industry</p>
         </div>
-        <div className="d-flex flex-column justify-content-center align-items-center mobile-animate" data-aos='fade-up' data-aos-offset="100">
+        <div className="d-flex flex-column justify-content-center align-items-center mobile-animate">
             <div className="card d-flex justify-content-center align-items-center border-0">
                 <div className="z-3 bg-white rounded-circle card-w d-flex align-items-center justify-content-center shadow p-3">
 
@@ -151,7 +151,7 @@ function Industries() {
             </div>
             <p>Oil Drilling</p>
         </div>
-        <div className="d-flex flex-column justify-content-center align-items-center mobile-animate" data-aos='fade-up' data-aos-offset="100">
+        <div className="d-flex flex-column justify-content-center align-items-center mobile-animate">
             <div className="card d-flex justify-content-center align-items-center border-0">
                 <div className="z-3 bg-white rounded-circle card-w d-flex align-items-center justify-content-center shadow p-3">
 
@@ -163,7 +163,7 @@ function Industries() {
             </div>
             <p>Textile Industry</p>
         </div>
-        <div className="d-flex flex-column justify-content-center align-items-center mobile-animate" data-aos='fade-up' data-aos-offset="100">
+        <div className="d-flex flex-column justify-content-center align-items-center mobile-animate">
             <div className="card d-flex justify-content-center align-items-center border-0">
                 <div className="z-3 bg-white rounded-circle card-w d-flex align-items-center justify-content-center shadow">
                 <img src={tooth} className="logo"></img>

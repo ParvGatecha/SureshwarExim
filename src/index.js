@@ -23,7 +23,10 @@ root.render(
   <React.StrictMode>
     <Router>
       <div>
-        <Navbar expand="lg" className="position-relative w-100 bg-dark z-3 navbar-light">
+        <Navbar
+          expand="lg"
+          className="position-relative w-100 bg-dark z-3 navbar-light"
+        >
           <Container id="navbar">
             <Navbar.Brand>
               <Link to="/">
@@ -42,21 +45,21 @@ root.render(
             >
               <Nav className="ms-auto">
                 <Nav.Link className="text-center">
-                  <Link to="/" className="text-danger">
+                  <Link to="/" className="text-danger fw-bold fs-5">
                     Home
                   </Link>
                 </Nav.Link>
-                <Nav.Link className="text-center">
+                <Nav.Link className="text-center fw-bold fs-5">
                   <Link to="/about-us" className="text-danger">
                     About Us
                   </Link>
                 </Nav.Link>
-                <Nav.Link className="text-center">
+                <Nav.Link className="text-center fw-bold fs-5">
                   <Link to="/" className="text-danger">
                     Contact Us
                   </Link>
                 </Nav.Link>
-                <Nav.Link className="text-center">
+                <Nav.Link className="text-center fw-bold fs-5">
                   <Link to="/industries" className="text-danger">
                     Industries We Serve
                   </Link>
