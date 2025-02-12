@@ -76,10 +76,8 @@ function Home() {
       <section className="products-section container overflow-visible">
         <h2>Our Products</h2>
         <p>
-          We provide a wide selection of Guar Gum products crafted to meet
-          global standards. Our range includes Guar Gum powder, splits, and
-          tailored formulations for diverse industries like food,
-          pharmaceuticals, cosmetics, textiles, and more.
+          We provide a wide selection of Jaggery and Dates crafted to meet
+          global standards.
         </p>
         <div className="products-grid overflow-visible m-2">
           {/* Jaggery Products */}
@@ -138,7 +136,7 @@ function Home() {
               </button>
             </form>
           </div>
-          <div className="map-container flex-grow-0">
+          {/* <div className="map-container flex-grow-0">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d7400.9561192465335!2d70.796294!3d21.954608!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjHCsDU3JzE2LjYiTiA3MMKwNDcnNTUuOSJF!5e0!3m2!1sen!2sin!4v1732254171752!5m2!1sen!2sin"
               height="450"
@@ -146,7 +144,7 @@ function Home() {
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
             ></iframe>
-          </div>
+          </div> */}
         </div>
       </section>
     </div>
