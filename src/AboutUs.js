@@ -71,7 +71,10 @@ function AboutUs() {
 
   return (
     <div className="main-container container d-flex flex-column align-items-center justify-content-center z-2">
-      <h1 className="fw-bold text-center overflow-hidden" data-aos="fade-down">
+      <h1
+        className="fw-bold text-center overflow-hidden stylish-heading"
+        data-aos="fade-down"
+      >
         About Us
       </h1>
       <p className="fs-5 text-center" data-aos="fade-up">
@@ -84,7 +87,7 @@ function AboutUs() {
 
       <div className="hero-section d-flex flex-column flex-md-row justify-content-around">
         <div className="content text-center" data-aos="fade-right">
-          <h1>Our Journey</h1>
+          <h1 className="stylish-heading">Our Journey</h1>
           <p>
             Our story began with a vision to bridge the gap between traditional,
             nutrient-rich products and the growing global demand for wholesome,
@@ -105,7 +108,7 @@ function AboutUs() {
 
       <div className="hero-section d-flex flex-column-reverse flex-md-row justify-content-around">
         <div className="content text-center" data-aos="fade-left">
-          <h1>Our Products</h1>
+          <h1 className="stylish-heading">Our Products</h1>
           <p>
             At Sureshwar Exim, we take pride in offering a diverse selection of
             premium-quality dates and jaggery sourced directly from the best
@@ -137,7 +140,7 @@ function AboutUs() {
 
       <div className="hero-section d-flex flex-column flex-md-row justify-content-around">
         <div className="content text-center" data-aos="zoom-in">
-          <h1>Our Commitment to Quality</h1>
+          <h1 className="stylish-heading">Our Commitment to Quality</h1>
           <p className="text-start">
             Quality is at the heart of everything we do. We follow stringent
             quality control measures at every stage of the supply chain, from
@@ -158,7 +161,7 @@ function AboutUs() {
 
       <div className="hero-section d-flex flex-column-reverse flex-md-row justify-content-around">
         <div className="content text-center" data-aos="fade-up">
-          <h1>Why Choose Us?</h1>
+          <h1 className="stylish-heading">Why Choose Us?</h1>
           <p className="text-start">
             With a customer-centric approach, we go the extra mile to ensure
             that our clients receive the best quality products at competitive
@@ -178,7 +181,9 @@ function AboutUs() {
 
       <div className="hero-section d-flex flex-column flex-md-row justify-content-around">
         <div className="content text-center" data-aos="flip-left">
-          <h1>Join Us in Promoting Natural Sweeteners Worldwide</h1>
+          <h1 className="stylish-heading">
+            Join Us in Promoting Natural Sweeteners Worldwide
+          </h1>
           <p>
             At Sureshwar Exim, we believe in the power of nature’s goodness. As
             more people seek healthier dietary choices, we are proud to play a
