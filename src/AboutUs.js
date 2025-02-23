@@ -1,27 +1,89 @@
-import React from "react";
+// import React from "react";
+// import "./App.css";
+// import rice from "./Assets/Images/rice.webp"
+// import one from "./Assets/Images/Image_showcasing_sourcing_of_raw_materials_emph (1).webp"
+// import two from "./Assets/Images/Design_an_infographic_showcasing_the_diverse_app.webp"
+// import three from "./Assets/Images/Positive_customer_testimonials_displayed_on_a_sc.webp"
+// import four from "./Assets/Images/sumleaf_Company_employees_planting_trees_or_part.webp"
+// import five from "./Assets/Images/Handshake_image_representing_partnership_and_col.webp"
+// import six from "./Assets/Images/Image_of_Guar_Gum_products_contributing_to_a_pos.webp"
+// import { Routes, Router, Route, Link } from 'react-router-dom';
+
+// function AboutUs() {
+//   return (
+//     <div className="main-container container d-flex align-items-center justify-content-center z-2">
+//       <h1 className="fw-bold text-center" >About Us</h1>
+//       <p className="fs-5 text-center" >
+        
+//       </p>
+//       <div className="hero-section d-flex flex-column flex-md-row justify-content-around">
+//         <div className="content text-center">
+//           <h1>Our Journey</h1>
+          
+//         </div>
+//       </div>
+
+//       <div className="hero-section d-flex flex-column-reverse flex-md-row justify-content-around">
+//         <div className="content text-center">
+//           <h1>Our Products</h1>
+          
+//         </div>
+//       </div>
+
+//       <div className="hero-section d-flex flex-column flex-md-row justify-content-around">
+//         <div className="content text-center">
+//           <h1>Our Commitment to Quality</h1>
+          
+//         </div>
+//       </div>
+
+//       <div className="hero-section d-flex flex-column-reverse flex-md-row justify-content-around">
+//         <div className="content text-center">
+//           <h1>Why Choose Us?</h1>
+          
+//         </div>
+//       </div>
+
+//       <div className="hero-section d-flex flex-column flex-md-row justify-content-around">
+//         <div className="content text-center">
+//           <h1>Join Us in Promoting Natural Sweeteners Worldwide r</h1>
+          
+//         </div>
+//       </div>
+//     </div>
+//   );
+// }
+
+// export default AboutUs;
+
+
+import React, { useEffect } from "react";
 import "./App.css";
-import rice from "./Assets/Images/rice.webp"
-import one from "./Assets/Images/Image_showcasing_sourcing_of_raw_materials_emph (1).webp"
-import two from "./Assets/Images/Design_an_infographic_showcasing_the_diverse_app.webp"
-import three from "./Assets/Images/Positive_customer_testimonials_displayed_on_a_sc.webp"
-import four from "./Assets/Images/sumleaf_Company_employees_planting_trees_or_part.webp"
-import five from "./Assets/Images/Handshake_image_representing_partnership_and_col.webp"
-import six from "./Assets/Images/Image_of_Guar_Gum_products_contributing_to_a_pos.webp"
-import { Routes, Router, Route, Link } from 'react-router-dom';
+import rice from "./Assets/Images/rice.webp";
+import one from "./Assets/Images/Image_showcasing_sourcing_of_raw_materials_emph (1).webp";
+import two from "./Assets/Images/Design_an_infographic_showcasing_the_diverse_app.webp";
+import three from "./Assets/Images/Positive_customer_testimonials_displayed_on_a_sc.webp";
+import four from "./Assets/Images/sumleaf_Company_employees_planting_trees_or_part.webp";
+import five from "./Assets/Images/Handshake_image_representing_partnership_and_col.webp";
+import six from "./Assets/Images/Image_of_Guar_Gum_products_contributing_to_a_pos.webp";
 
 function AboutUs() {
+
   return (
-    <div className="main-container container d-flex align-items-center justify-content-center z-2">
-      <h1 className="fw-bold text-center">About Us</h1>
-      <p className="fs-5 text-center">
+    <div className="main-container container d-flex flex-column align-items-center justify-content-center z-2">
+      <h1 className="fw-bold text-center overflow-hidden" data-aos="fade-down">
+        About Us
+      </h1>
+      <p className="fs-5 text-center" data-aos="fade-up">
         Welcome to Sureshwar Exim, your trusted partner in the export of
         premium-quality dates and jaggery. With a deep commitment to excellence,
         authenticity, and sustainability, we specialize in delivering the finest
         natural sweeteners to global markets, ensuring that customers worldwide
         experience the true richness of nature.
       </p>
+
       <div className="hero-section d-flex flex-column flex-md-row justify-content-around">
-        <div className="content text-center">
+        <div className="content text-center" data-aos="fade-right">
           <h1>Our Journey</h1>
           <p>
             Our story began with a vision to bridge the gap between traditional,
@@ -42,7 +104,7 @@ function AboutUs() {
       </div>
 
       <div className="hero-section d-flex flex-column-reverse flex-md-row justify-content-around">
-        <div className="content text-center">
+        <div className="content text-center" data-aos="fade-left">
           <h1>Our Products</h1>
           <p>
             At Sureshwar Exim, we take pride in offering a diverse selection of
@@ -74,7 +136,7 @@ function AboutUs() {
       </div>
 
       <div className="hero-section d-flex flex-column flex-md-row justify-content-around">
-        <div className="content text-center">
+        <div className="content text-center" data-aos="zoom-in">
           <h1>Our Commitment to Quality</h1>
           <p className="text-start">
             Quality is at the heart of everything we do. We follow stringent
@@ -95,7 +157,7 @@ function AboutUs() {
       </div>
 
       <div className="hero-section d-flex flex-column-reverse flex-md-row justify-content-around">
-        <div className="content text-center">
+        <div className="content text-center" data-aos="fade-up">
           <h1>Why Choose Us?</h1>
           <p className="text-start">
             With a customer-centric approach, we go the extra mile to ensure
@@ -115,8 +177,8 @@ function AboutUs() {
       </div>
 
       <div className="hero-section d-flex flex-column flex-md-row justify-content-around">
-        <div className="content text-center">
-          <h1>Join Us in Promoting Natural Sweeteners Worldwide r</h1>
+        <div className="content text-center" data-aos="flip-left">
+          <h1>Join Us in Promoting Natural Sweeteners Worldwide</h1>
           <p>
             At Sureshwar Exim, we believe in the power of nature’s goodness. As
             more people seek healthier dietary choices, we are proud to play a
