@@ -72,8 +72,7 @@ function AboutUs() {
   return (
     <div className="main-container container d-flex flex-column align-items-center justify-content-center z-2">
       <h1
-        className="fw-bold text-center overflow-hidden stylish-heading"
-        data-aos="fade-down"
+        className="stylish-heading"
       >
         About Us
       </h1>
