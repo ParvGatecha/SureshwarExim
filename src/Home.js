@@ -2,10 +2,14 @@ import React from "react";
 import "./App.css";
 import rice from "./Assets/Images/rice.webp"
 import overview from "./Assets/Images/overview.webp"
-import guarchuri from "./Assets/Images/GUARCHURI.webp"
-import guarkorma from "./Assets/Images/GUARKORMA.webp"
-import guargumpowder from "./Assets/Images/GUARGUMPOWDER.webp"
-import guarsplit from "./Assets/Images/GUARSPLIT.webp"
+import jaggerys from "./Assets/Images/jaggerys.jpg"
+import jaggeryc from "./Assets/Images/jaggery-cubes.jpg"
+import jaggeryp from "./Assets/Images/jaggery-powder.jpeg";
+import ajwa from "./Assets/Images/ajwa.jpeg"
+import mejdool from "./Assets/Images/mejdool.jpeg"
+import zahidi from "./Assets/Images/zahidi.jpeg"
+import safawi from "./Assets/Images/safawi.jpeg";
+
 import { Routes, Router, Route, Link } from 'react-router-dom';
 import Fab from '@mui/material/Fab';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
@@ -82,15 +86,15 @@ function Home() {
         <div className="products-grid overflow-visible m-2">
           {/* Jaggery Products */}
             <div className="product-card">
-              <img src={guarchuri} alt="Guar Churi" />
+              <img src={jaggerys} alt="Guar Churi" />
               <h3>Jaggery</h3>
             </div>
             <div className="product-card">
-              <img src={guargumpowder} alt="Guar Gum Powder" />
+              <img src={jaggeryc} alt="Guar Gum Powder" />
               <h3>Jaggery Cubes</h3>
             </div>
             <div className="product-card">
-              <img src={guarkorma} alt="Guar Korma" />
+              <img src={jaggeryp} alt="Guar Korma" />
               <h3>Jaggery Powder</h3>
           </div>
           
@@ -98,19 +102,19 @@ function Home() {
         <div className="products-grid overflow-visible m-2">
           {/* Dates Products */}
             <div className="product-card">
-              <img src={guarsplit} alt="Guar Split" />
+              <img src={mejdool} alt="Guar Split" />
               <h3>Medjool Dates</h3>
             </div>
             <div className="product-card">
-              <img src={guarsplit} alt="Guar Split" />
+              <img src={safawi} alt="Guar Split" />
               <h3>Safawi Dates</h3>
             </div>
             <div className="product-card">
-              <img src={guarsplit} alt="Guar Split" />
+              <img src={ajwa} alt="Guar Split" />
               <h3>Ajwa Dates</h3>
             </div>
             <div className="product-card">
-              <img src={guarsplit} alt="Guar Split" />
+              <img src={zahidi} alt="Guar Split" />
               <h3>Zahidi Dates</h3>
             </div>
         </div>

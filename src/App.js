@@ -5,6 +5,7 @@ import { Routes, Router, Route, Link } from 'react-router-dom';
 import Home from "./Home";
 import AboutUs from "./AboutUs";
 import Industries from "./Industries";
+import ContactUs from "./ContactUs";
 
 function App() {
 
@@ -13,12 +14,11 @@ function App() {
   };
   return (
     <div className="main-container position-relative">
-      
-
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about-us" element={<AboutUs />} />
-        {/* <Route path="/industries" element={<Industries />} /> */}
+        <Route path="/industries" element={<Industries />} />
+        <Route path="/contact-us" element={<ContactUs />} />
       </Routes>
 
       <footer className="footer-section">
@@ -31,15 +31,9 @@ function App() {
             <p>email</p>
           </div>
           <div className="social-icons">
-            <a>
-              Facebook
-            </a>
-            <a>
-              LinkedIn
-            </a>
-            <a>
-              Instagram
-            </a>
+            <a>Facebook</a>
+            <a>LinkedIn</a>
+            <a>Instagram</a>
           </div>
         </div>
       </footer>

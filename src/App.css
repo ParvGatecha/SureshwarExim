@@ -147,7 +147,7 @@ body {
 }
 
 .products-grid {
-  display:list-item;
+  display:block;
   /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
   /* gap: 2rem; */
   justify-content: start;
@@ -346,4 +346,16 @@ body {
 #main-c{
   background: url("./Assets/Images/jaggery.jpg");
   background-size: cover;
+}
+
+.industry-section {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
 }

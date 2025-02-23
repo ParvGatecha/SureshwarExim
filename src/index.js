@@ -55,7 +55,7 @@ root.render(
                   </Link>
                 </Nav.Link>
                 <Nav.Link className="text-center fw-bold fs-5">
-                  <Link to="/" className="text-danger">
+                  <Link to="/contact-us" className="text-danger">
                     Contact Us
                   </Link>
                 </Nav.Link>
