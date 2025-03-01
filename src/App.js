@@ -6,6 +6,7 @@ import Home from "./Home";
 import AboutUs from "./AboutUs";
 import Industries from "./Industries";
 import ContactUs from "./ContactUs";
+import PhotoGallery from "./ProductGallery";
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/industries" element={<Industries />} />
         <Route path="/contact-us" element={<ContactUs />} />
+        <Route path="/photos" element={<PhotoGallery />} />
       </Routes>
 
       <footer className="footer-section">
@@ -27,8 +29,8 @@ function App() {
           <p>&copy; 2023 Sureshwar Exim</p>
           <div className="footer-details">
             <p>Address</p>
-            <p>number</p>
-            <p>email</p>
+            <p>+91 8733037337</p>
+            <p>info@sureshwarexim.com</p>
           </div>
           <div className="social-icons">
             <a>Facebook</a>

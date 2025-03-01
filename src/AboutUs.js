@@ -59,13 +59,6 @@
 
 import React, { useEffect } from "react";
 import "./App.css";
-import rice from "./Assets/Images/rice.webp";
-import one from "./Assets/Images/Image_showcasing_sourcing_of_raw_materials_emph (1).webp";
-import two from "./Assets/Images/Design_an_infographic_showcasing_the_diverse_app.webp";
-import three from "./Assets/Images/Positive_customer_testimonials_displayed_on_a_sc.webp";
-import four from "./Assets/Images/sumleaf_Company_employees_planting_trees_or_part.webp";
-import five from "./Assets/Images/Handshake_image_representing_partnership_and_col.webp";
-import six from "./Assets/Images/Image_of_Guar_Gum_products_contributing_to_a_pos.webp";
 
 function AboutUs() {
 

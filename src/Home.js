@@ -1,7 +1,5 @@
 import React from "react";
 import "./App.css";
-import rice from "./Assets/Images/rice.webp"
-import overview from "./Assets/Images/overview.webp"
 import jaggerys from "./Assets/Images/jaggerys.jpg"
 import jaggeryc from "./Assets/Images/jaggery-cubes.jpg"
 import jaggeryp from "./Assets/Images/jaggery-powder.jpeg";
@@ -16,7 +14,6 @@ import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
-import sunleaf from "./Assets/Images/Sunleaf.webp"
 import { height } from "@mui/system";
 
 function Home() {
@@ -85,38 +82,37 @@ function Home() {
         </p>
         <div className="products-grid overflow-visible m-2">
           {/* Jaggery Products */}
-            <div className="product-card">
-              <img src={jaggerys} alt="Guar Churi" />
-              <h3>Jaggery</h3>
-            </div>
-            <div className="product-card">
-              <img src={jaggeryc} alt="Guar Gum Powder" />
-              <h3>Jaggery Cubes</h3>
-            </div>
-            <div className="product-card">
-              <img src={jaggeryp} alt="Guar Korma" />
-              <h3>Jaggery Powder</h3>
-          </div>
-          
+          <Link to="/photos?category=Jaggery" className="product-card">
+            <img src={jaggerys} alt="Guar Churi" />
+            <h3>Jaggery</h3>
+          </Link>
+          <Link to="/photos?category=Jaggery" className="product-card">
+            <img src={jaggeryc} alt="Guar Gum Powder" />
+            <h3>Jaggery Cubes</h3>
+          </Link>
+          <Link to="/photos?category=Jaggery_Powder" className="product-card">
+            <img src={jaggeryp} alt="Guar Korma" />
+            <h3>Jaggery Powder</h3>
+          </Link>
         </div>
         <div className="products-grid overflow-visible m-2">
           {/* Dates Products */}
-            <div className="product-card">
-              <img src={mejdool} alt="Guar Split" />
-              <h3>Medjool Dates</h3>
-            </div>
-            <div className="product-card">
-              <img src={safawi} alt="Guar Split" />
-              <h3>Safawi Dates</h3>
-            </div>
-            <div className="product-card">
-              <img src={ajwa} alt="Guar Split" />
-              <h3>Ajwa Dates</h3>
-            </div>
-            <div className="product-card">
-              <img src={zahidi} alt="Guar Split" />
-              <h3>Zahidi Dates</h3>
-            </div>
+          <Link to="/photos?category=Mejdool" className="product-card">
+            <img src={mejdool} alt="Guar Split" />
+            <h3>Medjool Dates</h3>
+          </Link>
+          <Link to="/photos?category=Safawi" className="product-card">
+            <img src={safawi} alt="Guar Split" />
+            <h3>Safawi Dates</h3>
+          </Link>
+          <Link to="/photos?category=Ajwa" className="product-card">
+            <img src={ajwa} alt="Guar Split" />
+            <h3>Ajwa Dates</h3>
+          </Link>
+          <Link to="/photos?category=Zihadi" className="product-card">
+            <img src={zahidi} alt="Guar Split" />
+            <h3>Zihadi Dates</h3>
+          </Link>
         </div>
 
         <button className="view-industries-btn">
