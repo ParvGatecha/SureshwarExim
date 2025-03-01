@@ -32,11 +32,6 @@ function App() {
             <p>+91 8733037337</p>
             <p>info@sureshwarexim.com</p>
           </div>
-          <div className="social-icons">
-            <a>Facebook</a>
-            <a>LinkedIn</a>
-            <a>Instagram</a>
-          </div>
         </div>
       </footer>
     </div>
