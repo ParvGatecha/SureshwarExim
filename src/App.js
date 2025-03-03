@@ -28,7 +28,10 @@ function App() {
           <h3>Sureshwar Exim</h3>
           <p>&copy; 2023 Sureshwar Exim</p>
           <div className="footer-details">
-            <p>Address</p>
+            <p>
+              Bhagwatpara 5, Near dr pramod house, Gondal, Rajkot:
+              360311
+            </p>
             <p>+91 8733037337</p>
             <p>info@sureshwarexim.com</p>
           </div>
